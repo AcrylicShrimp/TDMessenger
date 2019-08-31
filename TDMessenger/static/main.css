@@ -1,0 +1,113 @@
+
+html {
+	box-sizing: border-box;
+	margin    : 0;
+	border    : 0;
+	padding   : 0;
+	width     : 100%;
+	height    : 100%;
+}
+
+body {
+	box-sizing      : border-box;
+	margin          : 0;
+	border          : 0;
+	padding         : 0;
+	width           : 100%;
+	height          : 100%;
+	background-color: black;
+}
+
+div {
+	box-sizing: border-box;
+	margin    : 0;
+	border    : 0;
+	padding   : 0;
+	display   : block;
+	min-width : 16rem;
+}
+
+div.login {
+	position        : absolute;
+	top             : 0;
+	left            : 0;
+	right           : 0;
+	background-color: rgba(0, 0, 0, .25);
+}
+
+div.chatting {
+	position        : absolute;
+	bottom          : 0;
+	left            : 0;
+	right           : 0;
+	background-color: rgba(0, 0, 0, .25);
+}
+
+div.outer {
+	display: table;
+	width  : 100%;
+	height : 100%;
+}
+
+div.inner {
+	display       : table-cell;
+	vertical-align: middle;
+}
+
+div.main {
+	margin : auto;
+	padding: 0 2rem;
+}
+
+.fullsized {
+	box-sizing: border-box;
+	margin    : 0;
+	border    : 0;
+	padding   : 0;
+	width     : 100%;
+	height    : 100%;
+	display   : block;
+}
+
+.ui-long {
+	box-sizing: border-box;
+	box-shadow: 0 0 .1em 0 rgba(0, 0, 0, .5);
+	margin    : 1rem auto;
+	width     : 100%;
+	display   : block;
+	text-align: center;
+}
+
+.ui {
+	box-sizing: border-box;
+	box-shadow: 0 0 .1em 0 rgba(0, 0, 0, .5);
+	margin    : 1rem auto;
+	width     : 100%;
+	max-width : 30rem;
+	display   : block;
+	text-align: center;
+}
+
+.ui:focus {
+	outline: none;
+}
+
+.inputfield {
+	color           : black;
+	background-color: white;
+	border-width    : 0 0 .1em 0;
+	border-style    : none none solid none;
+	border-color    : rgb(48, 172, 255);
+	border-radius   : .1em;
+	font-size       : 2.5rem;
+	padding         : 0;
+}
+
+.btn {
+	color           : white;
+	background-color: rgb(48, 172, 255);
+	border          : .1em solid rgb(48, 172, 255);
+	border-radius   : .1em;
+	padding         : .2em .5em;
+	font-size       : 2rem;
+}

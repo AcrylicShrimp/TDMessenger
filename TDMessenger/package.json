@@ -1,0 +1,13 @@
+{
+  "name": "tdmessenger",
+  "version": "0.0.0",
+  "description": "TDMessenger",
+  "main": "server.js",
+  "author": {
+    "name": "led78"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
+  }
+}
